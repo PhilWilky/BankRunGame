@@ -1224,6 +1224,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77bbcc24f9a6ee943ac44aee5be84c06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtGold: {fileID: 95409910}
+  txtGoldWorth: {fileID: 688985369}
+  goldInVault: 50
+  goldInVaultWorth: 0
+  liveGoldValue: 18.93
 --- !u!1 &994537031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1720,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 813863874}
         m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
-        m_MethodName: RefreshGui
+        m_MethodName: UpdateUi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
